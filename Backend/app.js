@@ -13,7 +13,7 @@ const cors = require('cors');
 app.use(cors());
 
 const mongoose = require('mongoose');
-const auth = require('./Auth/auth');
+const auth = require('./Auth/auth.js');
 
 mongoose.connect('mongodb+srv://praveen7279166:TEST124124@cluster0.fanah2h.mongodb.net/')
   .then(() => {
